@@ -1,0 +1,57 @@
+ChimbaBenchCPU v1.0 (CPU&CacheMem, https://github.com/Shedou/ChimbaBenchCPU)
+MIT License - (c) 2026 Андрей Цымбалов (Chimbal)
+Executable MD5: db175b1b7a0ecbcb176530c3f09b60ed - 2026-11-26 13:31:05 
+-=====================- System Summary -=====================-
+ CPU:      AMD Athlon(tm) XP 1500+
+ Arch:     [K7 Thoroughbred | Fam 6, Mod 8, Step 1]
+ ISA:      x87, CMOV, MMX, MMX+, SSE, 3DNow!, 3DNow!+
+ Virt:     Not Supported
+ Clock:    1278 MHz Base | 1266 MHz Measured 
+ Cache:    L1D 64 KB | L1I 64 KB | L2 256 KB | L3 None
+ Threads:  1 logical processor(s)
+ Memory:   1.98 GB RAM
+ OS:       Linux 3.2.0-4-486 (i686)
+ Compiler: GCC 12.2.0 (OpenMP 4.5) | Test duration: 2.0 s
+
+-= Cache & Memory Read (1 thread(s)) =-
+ L1 Read (32 KB/T)           8.91 GB/s
+ L2 Read (128 KB/T)          3.87 GB/s
+ L3 Read                 not supported
+ RAM Read (64 MB)            1.02 GB/s
+-= Cache & Memory Write (1 thread(s)) =-
+ L1 Write (32 KB/T)          9.95 GB/s
+ L2 Write (128 KB/T)         3.85 GB/s
+ L3 Write                not supported
+ RAM Write (64 MB)           0.74 GB/s
+-= Latency =-
+ L1 Latency (32 KB)          2.36 ns
+ L2 Latency (128 KB)        15.73 ns
+ L3 Latency              not supported
+ RAM Latency (64 MB)       211.32 ns
+
+-= Compute (1 thread(s)) =-
+ FP32-Scalar                 1.16 GFLOPS
+ INT32-Scalar                1.13 GIOPS
+ INT32-MMX                   5.09 GIOPS
+ FP32-SSE                    4.27 GFLOPS
+ FP64-SSE2               not supported
+ INT8-SSE2               not supported
+ INT16-SSE2              not supported
+ INT32-SSE2              not supported
+ INT64-SSE2              not supported
+ INT8/16-SSSE3           not supported
+ INT32-SSE4.1            not supported
+ FP32-AVX                not supported
+ FP64-AVX                not supported
+ FP32-AVX+FMA            not supported
+ FP64-AVX+FMA            not supported
+ INT8-AVX2               not supported
+ INT16-AVX2              not supported
+ INT32-AVX2              not supported
+ INT64-AVX2              not supported
+ INT8-AVX512             not supported
+ INT16-AVX512            not supported
+ INT32-AVX512            not supported
+ INT64-AVX512            not supported
+ FP32-AVX512+FMA         not supported
+ FP64-AVX512+FMA         not supported

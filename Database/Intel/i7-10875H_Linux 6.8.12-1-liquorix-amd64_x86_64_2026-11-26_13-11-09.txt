@@ -1,0 +1,94 @@
+ChimbaBenchCPU v1.0 (CPU&CacheMem, https://github.com/Shedou/ChimbaBenchCPU)
+MIT License - (c) 2026 Андрей Цымбалов (Chimbal)
+Executable MD5: 49ac84963d2ab611f3a91a7997a71645 - 2026-11-26 13:11:09 
+-=====================- System Summary -=====================-
+ CPU:      Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz
+ Arch:     [Comet Lake (10th Gen Core) | Fam 6, Mod 165, Step 2]
+ ISA:      x87, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AES, PCLMUL, POPCNT, F16C, AVX, FMA3, AVX2, BMI1, BMI2
+ Virt:     Intel VT-x (Enabled)
+ Clock:    2300 MHz Base | 5100 MHz Boost | 4760 MHz Measured
+ Cache:    L1D 32 KB | L1I 32 KB | L2 256 KB | L3 16.0 MB
+ Threads:  16 logical processor(s)
+ Memory:   62.71 GB RAM
+ OS:       Linux 6.8.12-1-liquorix-amd64 (x86_64)
+ Compiler: GCC 12.2.0 (OpenMP 4.5) | Test duration: 2.0 s
+
+-= Cache & Memory Read (1 thread(s)) =-
+ L1 Read (16 KB/T)         165.79 GB/s
+ L2 Read (128 KB/T)        116.78 GB/s
+ L3 Read (8.0 MB)           61.13 GB/s
+ RAM Read (128 MB)          23.66 GB/s
+-= Cache & Memory Write (1 thread(s)) =-
+ L1 Write (16 KB/T)        144.30 GB/s
+ L2 Write (128 KB/T)        75.76 GB/s
+ L3 Write (8.0 MB)          43.48 GB/s
+ RAM Write (128 MB)         17.87 GB/s
+-= Cache & Memory Read (16 thread(s)) =-
+ L1 Read (16 KB/T)         946.80 GB/s
+ L2 Read (128 KB/T)        458.07 GB/s
+ L3 Read (8.0 MB)          170.83 GB/s
+ RAM Read (128 MB)          34.58 GB/s
+-= Cache & Memory Write (16 thread(s)) =-
+ L1 Write (16 KB/T)        757.54 GB/s
+ L2 Write (128 KB/T)       321.07 GB/s
+ L3 Write (8.0 MB)         149.44 GB/s
+ RAM Write (128 MB)         17.25 GB/s
+-= Latency =-
+ L1 Latency (16 KB)          0.84 ns
+ L2 Latency (128 KB)         3.19 ns
+ L3 Latency (8.0 MB)        13.44 ns
+ RAM Latency (128 MB)       72.42 ns
+
+-= Compute (1 thread(s)) =-
+ FP32-Scalar                 5.34 GFLOPS
+ INT32-Scalar               13.79 GIOPS
+ INT32-MMX                   9.00 GIOPS
+ FP32-SSE                   34.00 GFLOPS
+ FP64-SSE2                  16.90 GFLOPS
+ INT8-SSE2                 215.29 GIOPS
+ INT16-SSE2                107.57 GIOPS
+ INT32-SSE2                 53.17 GIOPS
+ INT64-SSE2                 26.71 GIOPS
+ INT8/16-SSSE3             183.21 GIOPS
+ INT32-SSE4.1               24.55 GIOPS
+ FP32-AVX                   76.07 GFLOPS
+ FP64-AVX                   38.11 GFLOPS
+ FP32-AVX+FMA              149.57 GFLOPS
+ FP64-AVX+FMA               76.10 GFLOPS
+ INT8-AVX2                 435.71 GIOPS
+ INT16-AVX2                218.40 GIOPS
+ INT32-AVX2                108.95 GIOPS
+ INT64-AVX2                 54.59 GIOPS
+ INT8-AVX512             not supported
+ INT16-AVX512            not supported
+ INT32-AVX512            not supported
+ INT64-AVX512            not supported
+ FP32-AVX512+FMA         not supported
+ FP64-AVX512+FMA         not supported
+
+-= Compute (16 thread(s)) =-
+ FP32-Scalar                35.71 GFLOPS
+ INT32-Scalar               90.22 GIOPS
+ INT32-MMX                  59.68 GIOPS
+ FP32-SSE                  231.72 GFLOPS
+ FP64-SSE2                 113.88 GFLOPS
+ INT8-SSE2                1322.81 GIOPS
+ INT16-SSE2                659.35 GIOPS
+ INT32-SSE2                328.18 GIOPS
+ INT64-SSE2                170.32 GIOPS
+ INT8/16-SSSE3            1336.61 GIOPS
+ INT32-SSE4.1              191.38 GIOPS
+ FP32-AVX                  459.88 GFLOPS
+ FP64-AVX                  231.93 GFLOPS
+ FP32-AVX+FMA              858.76 GFLOPS
+ FP64-AVX+FMA              454.59 GFLOPS
+ INT8-AVX2                2546.48 GIOPS
+ INT16-AVX2               1274.98 GIOPS
+ INT32-AVX2                635.80 GIOPS
+ INT64-AVX2                322.51 GIOPS
+ INT8-AVX512             not supported
+ INT16-AVX512            not supported
+ INT32-AVX512            not supported
+ INT64-AVX512            not supported
+ FP32-AVX512+FMA         not supported
+ FP64-AVX512+FMA         not supported
