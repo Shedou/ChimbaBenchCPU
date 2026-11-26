@@ -1,4 +1,4 @@
-# ChimbaBenchCPU [![Github Releases](https://img.shields.io/github/downloads/Shedou/ChimbaBenchCPU/total.svg)](https://github.com/Shedou/ChimbaBenchCPU/releases)
+# ChimbaBenchCPU [![Github Releases](https://img.shields.io/github/downloads/Shedou/ChimbaBenchCPU/total.svg)](https://github.com/Shedou/ChimbaBenchCPU/releases) | [ChimbaBenchCL](https://github.com/Shedou/ChimbaBenchCL)
 
 ChimbaBenchCPU — это легковесный кроссплатформенный бенчмарк с открытым исходным кодом, предназначенный для измерения производительности центральных процессоров (CPU). Проект был создан с помощью искусственного интеллекта (не является полностью сгенерированным ИИ). Использование ИИ помогло значительно ускорить процесс разработки и повысить качество проекта.
 
