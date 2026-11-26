@@ -42,7 +42,7 @@ Additional launch parameters can be found by running the program with the `-help
 - - INT8 - SSE2, AVX2, AVX512
 - - INT8/16 - SSSE3
 - - INT16 - SSE2, AVX2, AVX512
-- - INT32 - Scalar, SSE2, SSE4.1, AVX2, AVX512
+- - INT32 - Scalar, MMX, SSE2, SSE4.1, AVX2, AVX512
 - - INT64 - SSE2, AVX2, AVX512
 
 ## Screenshoot
