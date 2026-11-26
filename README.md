@@ -47,7 +47,7 @@ Additional launch parameters can be found by running the program with the `-help
 
 ## Screenshoot
 
-<img width="1920" height="1080" alt="Screenshot" src="" />
+<img width="1920" height="1080" alt="Screenshot" src="Screenshoot.jpg" />
 
 ## Примечание:
 Стандартный запуск теста обычно занимает до 2-3 минут, в зависимости от процессора и его возможностей. Чтобы выполнить тест быстрее - за счет более низкой точности результата (занимает примерно 35-40 секунд) - вы можете использовать аргумент «-fast» или «--fast».
